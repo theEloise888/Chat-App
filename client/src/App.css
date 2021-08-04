@@ -1,0 +1,33 @@
+.scenario-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2em;
+}
+.scenario-message {
+  color: white;
+  font-weight: bold;
+  width: 80%;
+  padding: 1em;
+  margin-bottom: 5em;
+  font-size: smaller;
+  font-weight: bold;
+}
+.userBubble {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  padding: 5px;
+  width: 70%;
+  margin-bottom: -1em;
+  border-radius: 10px;
+  left: -5%;
+  color: white;
+}
+.usersList {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  box-sizing: border-box;
+  height: calc(65vh);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
